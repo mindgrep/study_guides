@@ -75,5 +75,5 @@ Coefficient of friction - denoted by the symbol $\mu$. It has no units.
 
 $\mu_{s} > \mu_{k}$
 
-$F_{static friction, max} = \mu_{s}F_{N}$
-$F_{kintic friction} = \mu_{k}F_{N}$
+$F_{static friction, max} = \mu_{s}F_{N}$  
+$F_{kinetic friction} = \mu_{k}F_{N}$
