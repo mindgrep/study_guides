@@ -69,7 +69,7 @@ Two types of friction:
 * Static - higher than kinetic - occurs when there is no relative motion between body and surface
 * Kinetic (sliding) - occurs when there is relative motion between body and surface
 
-Coefficient of friction - denoted by the symbol $mu$. It has no units.
+Coefficient of friction - denoted by the symbol $\mu$. It has no units.
 * Coefficient of *static* friction - $\mu_{s}$
 * Coefficient of *kinetic* friction - $\mu_{k}$
 
