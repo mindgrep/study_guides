@@ -62,7 +62,7 @@ Force exerted by a surface on a body resting on the surface, in a direction perp
 ### Friction
 
 When a body is in contact with a surface, the component of the contact force that is *parallel* to the surface is friction.
-(unlik "normal" force)
+(unlike "normal" force)  
 underlying (molecular level) mechanism of friction - electrostatic interactions between atoms of object and surface
 
 Two types of friction:
@@ -73,7 +73,13 @@ Coefficient of friction - denoted by the symbol $\mu$. It has no units.
 * Coefficient of *static* friction - $\mu_{s}$
 * Coefficient of *kinetic* friction - $\mu_{k}$
 
-$\mu_{s} > \mu_{k}$
+$\mu_{s} > \mu_{k}$ (i.e. static friction > kinetic - harder to push a stationary body than a moving one)
 
 $F_{static friction, max} = \mu_{s}F_{N}$  
 $F_{kinetic friction} = \mu_{k}F_{N}$
+
+**IMPORTANT** - for static friction, the formula computes the *maximum* force of friction.
+The force of static friction would be $<=$ the maximum. 
+e.g. if a force less than the max friction is applied to a body (in a direction parallel to the surface the body is in contact with), the static friction force will be = the applied force. If the applied force >= the maximum static friction, the force of friction will be equal to the maximum.
+
+
