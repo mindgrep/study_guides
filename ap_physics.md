@@ -3,6 +3,10 @@
 ##  General tips
 
 * You can use $g = 10 m/s^2$ for convenience in calculations, altho it's closer to 9.8 in reality.
+* Symbols
+  * Normal force: $F_{N}$ (force perpendicular to surface)
+  * Transverse force: $F_{T}$ (force parallel to surface)
+* Draw free-body diagrams to solve dynamics problems
 
 ## Dynamics
 
@@ -98,4 +102,7 @@ $F_{kinetic friction} = F_{f(kinetic)}$  (the left and right sides mean the same
 * Given a body's mass, $\mu_{k}$, compute the force of friction experienced
 * Given a body's mass, $\mu_{k}$ and a force applied to the body, compute the acceleration of the body
 
+### Pulleys
 
+* Key idea - when bodies are connected via strings/cords, assuming taut strings, the magnitudes of $\va{s}, \va{v} and \va{a}$
+*
