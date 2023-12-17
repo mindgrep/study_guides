@@ -1,5 +1,9 @@
 # Shriya AP Physics study guide
 
+##  General tips
+
+* You can use $g = 10 m/s^2$ for convenience in calculations, altho it's closer to 9.8 in reality.
+
 ## Dynamics
 
 Studies "Why" objects move
@@ -81,5 +85,17 @@ $F_{kinetic friction} = \mu_{k}F_{N}$
 **IMPORTANT** - for static friction, the formula computes the *maximum* force of friction.
 The force of static friction would be $<=$ the maximum. 
 e.g. if a force less than the max friction is applied to a body (in a direction parallel to the surface the body is in contact with), the static friction force will be = the applied force. If the applied force >= the maximum static friction, the force of friction will be equal to the maximum.
+
+Notation for static and kinetic friction:
+
+$F_{static friction} = F_{f(static)}$  (the left and right sides mean the same, the right is just a more concise notation)
+$F_{kinetic friction} = F_{f(kinetic)}$  (the left and right sides mean the same, the right is just a more concise notation)
+
+#### Example problems
+
+* Given a body's mass and $\mu_{s}$, compute the max friction
+* Given a body's mass, $\mu_{s}$ and a force applied to the body, compute the force of friction experienced
+* Given a body's mass, $\mu_{k}$, compute the force of friction experienced
+* Given a body's mass, $\mu_{k}$ and a force applied to the body, compute the acceleration of the body
 
 
