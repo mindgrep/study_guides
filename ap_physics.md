@@ -72,4 +72,5 @@ Two types of friction:
 Coefficient of friction - denoted by the symbol $mu$. It has no units.
 * Coefficient of *static* friction - $\mu_{s}$
 * Coefficient of *kinetic* friction - $\mu_{k}$
+
 $\mu_{s} > \mu_{k}$
