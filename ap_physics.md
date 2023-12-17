@@ -6,6 +6,7 @@
 * Symbols
   * Normal force: $F_{N}$ (force perpendicular to surface)
   * Transverse force: $F_{T}$ (force parallel to surface)
+  * Weight: $F_{w}$
 * Draw free-body diagrams to solve dynamics problems
 
 ## Dynamics
@@ -94,6 +95,7 @@ Notation for static and kinetic friction:
 
 $F_{static friction} = F_{f(static)}$  (the left and right sides mean the same, the right is just a more concise notation)
 $F_{kinetic friction} = F_{f(kinetic)}$  (the left and right sides mean the same, the right is just a more concise notation)
+$F_{friction} = F_{f}$  (shorthand notation for force of friction)
 
 #### Example problems
 
@@ -104,5 +106,18 @@ $F_{kinetic friction} = F_{f(kinetic)}$  (the left and right sides mean the same
 
 ### Pulleys
 
-* Key idea - when bodies are connected via strings/cords, assuming taut strings, the magnitudes of $\vectorarrow{s}, \vectorarrow{v} and \vectorarrow{a}$
-*
+* Key idea - when bodies are connected via strings/cords, assuming taut strings, the magnitudes of s, v and a of the connected bodies should be the same
+* Assume 0 friction on the pulley
+* Example problems:
+  * Given: One body lying flat on a horizontal surface, connected via a pulley to a body hanging vertically, over the edge of the surface. Compute the acceleration of the 2 bodies (they should be equal, and u can use this to solve).
+    * Strategy:
+      * Draw separate free-body diagrams for each body (that's why it's called *free* body)
+      * Use Newton's 2nd law ($F = ma$).
+      * Use Newton's third law ($F_{N} = mg$ for the body resting on the horizontal surface)
+      * The acceleration on the 2 bodies are equal (because they are physically connected by the string thru the pulley)
+
+### Inclined planes
+
+Same as "ramps"
+
+**Tip to solve inclined plane problems**: rotate the coordinate plane such that the x-axis is parallel to the inclined surface. This reduces the number of force vectors you need to "resolve" into their components (x and y) into 1, namely the weight of the body. The remaining forces are aligned with either the x or the y axis.
