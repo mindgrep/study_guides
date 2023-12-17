@@ -104,5 +104,5 @@ $F_{kinetic friction} = F_{f(kinetic)}$  (the left and right sides mean the same
 
 ### Pulleys
 
-* Key idea - when bodies are connected via strings/cords, assuming taut strings, the magnitudes of $\va{s}, \va{v} and \va{a}$
+* Key idea - when bodies are connected via strings/cords, assuming taut strings, the magnitudes of $\vectorarrow{s}, \vectorarrow{v} and \vectorarrow{a}$
 *
