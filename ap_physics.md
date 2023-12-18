@@ -1,17 +1,27 @@
 # Shriya AP Physics study guide
 
-##  General tips
+## Terminology
+
+* FBD - Free Body Diagram
+
+## Tips
+
+* Use the "Big Five" equations of motion
+* There is often more than one way to solve a problem, and they are all equally valid (you get full credit)
+
+## Dynamics
+
+Studies "Why" objects move
+
+###  General tips
 
 * You can use $g = 10 m/s^2$ for convenience in calculations, altho it's closer to 9.8 in reality.
 * Symbols
   * Normal force: $F_{N}$ (force perpendicular to surface)
   * Transverse force: $F_{T}$ (force parallel to surface)
   * Weight: $F_{w}$
-* Draw free-body diagrams to solve dynamics problems
-
-## Dynamics
-
-Studies "Why" objects move
+* Draw free-body diagrams (FBD) to solve dynamics problems
+* Use $\Sigma F_{x} = ma_{x}$ and/or $\Sigma F_{y} = ma_{y}$
 
 ### Newton's laws of motion
 
@@ -121,3 +131,154 @@ $F_{friction} = F_{f}$  (shorthand notation for force of friction)
 Same as "ramps"
 
 **Tip to solve inclined plane problems**: rotate the coordinate plane such that the x-axis is parallel to the inclined surface. This reduces the number of force vectors you need to "resolve" into their components (x and y) into 1, namely the weight of the body. The remaining forces are aligned with either the x or the y axis.
+
+
+## Circular motion and Gravitations
+
+For the purposes of AP physics 1 - assume planets move in uniform circular orbits around the sun (eventho that is not actually accurate).
+
+* Uniform Circular motion - constant "speed" but varying "velocity" (same magnitude but changing direction)
+
+* velocity vector's direction is always "tangential" to the path
+
+* acceleration is called "centripetal" -> pointing towards the center of the circular orbit
+
+**Remember**: When a body is in uniform circular motion, in the FBD, there is still a "net" force on the body (not 0), altho it "looks" like the body should have no net force. This is because the body is actually "accelerating" towards the center of it's circular orbit. The "net" force *is* the centripetal force. But if you want to draw a FBD with *no* net force, you can use the "centrifugal" force to "balance" out the rest of the forces, so that the body is "apparently" in uniform motion.
+
+Useful formulae:
+
+* The velocity of a body moving in a uniform circular orbit, $v = \frac{2{\Pi}R}{T}$ where T = orbital period (time to complete one orbit), R = radius of orbit
+
+* Centripetal acceleration $a_{c} = \frac{v^2}{r}$
+
+* Centripetal force $ma_{c} = \frac{mv^2}{r}$
+
+* Newton's law of gravitation $F_{G} = \frac{Gm_{1}m_{2}}{r^2}$
+
+### Centripetal acceleration and force
+
+Centripetal force has to be "provided" in order to maintain circular motion.
+Examples:
+* friction (in case of a car or person moving on a circular track)
+* tension in a string (for a mody attached to a string and whirled in a circle)
+* gravity (planetary / satellite orbits)
+
+Do not draw centripetal force on a FBD
+
+**note**: Centripetal force can *never* do *work* because it's direction is always perpendicular to the direction of motion.
+
+### Centrifugal force
+
+* Fictitious force (not real)
+* Can draw this on a FBD (altho the book says do not draw either centripetal or centrifugal)
+
+### Example problems
+
+* body moving in a "vertical" circle tied to a string connected to the center of the circle , at the top of the "orbit" - calculate the "tension" in the string
+* roller-coaster moving in a "vertical" circle on a circular track, at the top of the "orbit" - calculate the "normal force" on the car (pointing down, towards the center)
+* same example as roller-coaster, but at the "bottom" of the track, calculate $F_{N}$
+
+
+### Newton's law of gravitation
+
+* Gravitational mass and intertial mass experimentally verified to be the same
+
+$G = 6.67 x 10^{-11} N.m^2/kg^2$
+
+* We can calculate *g* using Newton's law of gravitation:  
+  $mg = \frac{GMm}{r^2}$
+
+    $\therefore g = \frac{GM}{r^2}$
+
+  where M = mass of the Earth  
+        r = radius of the Earth
+
+Example problems:
+* Given the radius the Earth, calculate the mass
+* Given the mass of the moon, the radius of its orbit and the mass of the Earth, calculate the orbital velocity of the moon
+
+## Energy
+
+* Law of conservation of energy - cannot be created or destroyed, but only converted from one form to another
+* Unit is Joules ($N*m/s^2$)
+
+### Work
+
+* Work is the method of transferring energy from one system to another
+* Work is a *scalar* (not a vector, no direction, only magnitude) $W = Fd$ (altho *both* F and d are vectors)
+* Work can be +ve, -ve or zero (zero work when Force applied is perpendicular to the direction of motion)
+* Force is the agent for doing work
+
+#### Work at an angle
+
+When the force is at an angle $\theta$ to the displacement d, need to calculate the component of F that is along the direction of the displacement to calculate the work done by that force. Again, remember that the "normal" force does **0** work.
+
+When force is at an angle to the displacement (general formula):
+$W = Fcos(\theta).d$
+
+#### Work under variable force
+
+If F varies continuously over time, we need to compute the area under the curve of F over d (displacement) to calculate total work done over time.
+
+### Kinetic energy
+
+Energy of an object by virtue of its motion
+
+$K = \frac{1}{2}mv^2$
+
+(can be proven using the 3rd equation of motion (Big Five #5) and Newton's second law)
+
+### Work-Energy Theorem
+
+* Kinetic energy is gained / lost by doing work (positive work => gain in K, negative work => loss in K)
+
+  $W_{total} = {\Delta}K$
+
+Example problems:
+
+* Calculate height a ball would reach when thrown vertically with a certain speed (note - mass is irrelevant)
+* Box slides down an inclined plane from rest (0 speed). Calculate its speed at the bottom.
+
+### Potential energy
+
+Energy of an object by virtue of its position, denoted by the symbol U
+
+* What's important is the "change" not absolute potential energy - i.e. potential energy is "relative"
+* Typically, K and U are inversely proportional - when one increases, the other decreases
+  iow, Total energy is conserved: $E = K + U$ or.. $K_{i} + U_{i} = K_{f} + U_{f}$
+
+Examples:
+
+* Pulled back bow
+* Object raised to a height
+* Waterfall
+* Pulled (or compressed) spring
+
+* Gravitational PE denoted by $U_{g}$
+
+### Conservation of energy with "nonconservative" forces
+
+* nonconservative forces - like friction - cause a "loss" of energy from the system (usually in the form of heat)
+  total energy is not "lost" - it gets transferred out of the system to another system / outside
+
+$K_{i} + U_{i} + W_{other} = K_{f} + U_{f}$
+
+### Power
+
+Rate at which work is done, unit is watts.
+The symbol for watt is W (don't confuse with Work)
+
+$P = \frac{Work}{time}$
+or
+$P = \frac{W}{{\Delta}t}$
+$P = \frac{{\Delta}E}{{\Delta}t}$
+
+Another unit of power, commonly used, is hp (horsepower).
+$1 hp = 746 W$
+
+Example problems
+
+* Calculate the "power output" (same as power) when an object is pushed with a given force for a given distance for a given amount of time.
+  Answer: $P = W/t = F.d/t$ or $F.v$
+* Calculate the "power output" (same as power) when an object with a given mass is lifted by an elevator for a given distance for a given amount of time.
+  Answer: calculate the $F_{w}$ and then use the same formula as previous.
