@@ -282,3 +282,86 @@ Example problems
   Answer: $P = W/t = F.d/t$ or $F.v$
 * Calculate the "power output" (same as power) when an object with a given mass is lifted by an elevator for a given distance for a given amount of time.
   Answer: calculate the $F_{w}$ and then use the same formula as previous.
+
+## Kinematics
+
+Tools for describing motion in terms of:
+* displacement (how far?)
+* velocity (how fast? or rate of change of displacement with time)
+* acceleration (rate of change of velocity with time)
+
+### Position
+
+Coordinate system (x,y) in 2D and (x,y,z) in 3D used to specify position.
+Typically, the origin is set to the initial position of the object, so (0,0) or (0,0,0).
+
+### Displacement
+
+* is the change in position
+* is a vector (magnitude + direction)
+* Denoted by $\Delta$s ($\Delta$ denotes "change", s denotes physical location (position))
+* SI unit = m (meters)
+
+#### Difference from "distance"
+
+* distance is a scalar
+* distance is the sum of the **absolute** values of changes in position, while displacement is the **change** in position between the initial and final position.
+  Example:  
+  An object travels 100m and then travels back 100m to return to its initial position
+  * the **distance** traveled would be 200m (100+100)
+  * the **displacement** of the object would be 0m (100m **-** 100m)
+
+#### Calculating displacement
+
+In problems to calculate displacement:
+
+* determine the initial and the final positions of the object
+* draw a straight arrow from the initial to the final position.
+  This is the vector for the displacement. 
+  The magnitude of the displacement is the length of this arrow.
+  The direction of the displacement is the direction of this arrow.
+* To find the length of the arrow, you may need to use the Pythagoras theorem - since you may be given an object's motion along x and y axes.
+* If an object's initial and final positions are the same, no matter how much the object traveled before returning to its initial position, the displacement is 0.
+
+#### AP notation NOTE
+
+In AP notation, they use *x* to denote displacement (instead of "$\Delta$s") to distinguish it from speed (s).
+*x* here (meaning the displacement) need not be along the **x** axis, but in any direction.
+
+#### Graphical problems
+
+* position-vs-time graphs (aka *p*-vs-*t*)
+  * Distance (x) is the y-coordinate, and time (t) is the "x" coordinate (do not get confused on what "x" is here)
+  * Speed is the slope (rise/run) of the graph at any point
+  * Total distance can be calculated by adding up the *magnitudes* of the changes in *x* (position, i.e. in the y-coordinate)
+  * Displacement can be calculated by calculating the $\Delta$y (change in the y-coordinate) between the initial and final positions
+  * Note that the *direction* of the motion is assumed to be in 1 direction / dimension, since there is a single number being tracked for the position (the y coordinate in the p-vs-t graph)
+
+### Speed and velocity
+
+* average speed = $\frac{total\ distance}{time}$ (direction is **not** relevant for this calculation)
+* average *velocity* = $\frac{displacement}{time}$ (direction *is* relevant - the direction of the velocity is the same as that of displacement, since time is a scalar) 
+* also expressed as $\bar{v}$ = $\frac{{\Delta}x}{{\Delta}t}$
+* magnitude of velocity = speed
+* If speed changes, velocity *will* change
+* If velocity changes, speed *need not* change - if only the direction changes (e.g. going in a curved track at constant speed - velocity is changing but speed is fixed)
+* units of velocity (same as speed): m/s
+
+### Acceleration
+
+* average acceleration = $\frac{change\ in\ velocity}{time}$
+* also expressed as $\bar{a}$ = $\frac{{\Delta}v}{{\Delta}t}$
+* units of acceleration: $m/s^2$
+* even if speed is constant, acceleration can be non-zero, because velocity could change (direction)
+
+#### Graphical problems
+
+* velocity-vs-time graphs
+  * y-axis is velocity
+  * x-axis is time
+  * acceleration is the slope of the curve
+  * To calculate displacement, calculate the area under the curve (between the curve and the x-axis)
+  * Area under the curve can be positive (above the x-axis) or negative (below the x-axis)
+  * positive area == positive displacement, negative area == negative displacement
+  * remember, displacement is a vector - which is why it has a "sign"
+  * total displacement = sum of areas under the curve (which could be positive, negative or 0)
