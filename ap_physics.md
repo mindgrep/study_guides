@@ -365,3 +365,15 @@ In AP notation, they use *x* to denote displacement (instead of "$\Delta$s") to 
   * positive area == positive displacement, negative area == negative displacement
   * remember, displacement is a vector - which is why it has a "sign"
   * total displacement = sum of areas under the curve (which could be positive, negative or 0)
+
+### Uniformly accelerated motion and the "big 5" equations
+
+If acceleration is constant, we can use the "big 5" equations.
+
+* kinematic quantities: ${\Delta}x, v_0, v, a\ and\ {\Delta}t$
+* Big 5 equations. Each of them can used when the problem stated gives you the quantities on the RHS of that equation, and calculate the quantity on the LHS.
+  * ${\Delta}$x = $\frac{1}{2}(v_0\ +\ v)t$ - when $v_0$, v, t are given and you need to calculate displacement
+  * v = $v_0$ + at - when $v_0$, a, t are given and you need to calculate final velocity
+  * x = $x_0$ + $v_0$t - $\frac{1}{2}at^2$ - when $x_0$, $v_0$, t, a are given and you need to calculate displacement
+  * x = $x_0$ + vt - $\frac{1}{2}at^2$ - when $x_0$, v, t, a are given and you need to calculate displacement
+  * $v^2$ = ${v_0}^2$ + 2a(x - $x_0$) - when $v_0$, a, x, $x_0$ are given and you need to calculate final velocity
