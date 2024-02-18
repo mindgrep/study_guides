@@ -388,3 +388,17 @@ If acceleration is constant, we can use the "big 5" equations.
 * Qualitative graphing: familialize yourself with the "meaning" of different shapes / curves in x vs t (p vs t) and v vs t graphs
   * What is the x, v in each type of graph - fixed / constant / increasing / decreasing?
   * What is the acceleration - positive or negative? (since we are only dealing with "uniform" or fixed acceleration
+* Given a "p vs t" graph, draw the v vs t graph
+  * Remember - v is the "slope" ($\frac{rise}{run}$) at any point on the p vs t graph
+  * If the slope is "flat" i.e. parallel to the x-axis, then the velocity = 0
+  * If the slope is "increasing", then the velocity is increasing (assume straight line, because we assume fixed acceleration)
+  * If the slope is "decreasing", then the velocity is decreasing (assume straight line, because we assume fixed acceleration)
+  * You may need to split the graph into sections where each section has a certain type of v (the problem might have the sections already split out)
+
+### Free fall
+
+* Example of constant acceleration
+* Near the surface of the Earth, magnitude of g is about 9.8 $m/s^2$
+* In the AP physics exam, you can use g = 10 $m/s^2$ to simplify calculations
+* acceleration g points downward
+
