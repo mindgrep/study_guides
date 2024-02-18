@@ -377,3 +377,14 @@ If acceleration is constant, we can use the "big 5" equations.
   * x = $x_0$ + $v_0$t - $\frac{1}{2}at^2$ - when $x_0$, $v_0$, t, a are given and you need to calculate displacement
   * x = $x_0$ + vt - $\frac{1}{2}at^2$ - when $x_0$, v, t, a are given and you need to calculate displacement
   * $v^2$ = ${v_0}^2$ + 2a(x - $x_0$) - when $v_0$, a, x, $x_0$ are given and you need to calculate final velocity
+* How to solve problems
+  * Identify which of the 5 kinematic quantities are "given" in the problem.
+  * Find the big 5 equation where the "given" quantities are on the right hand side
+  * Calculate the left hand side using the equation
+
+### Other graphical problems in kinematics
+
+* Instantaneous velocity: Find the slope of the tangent at the point where you need to calculate the instantaneous velocity
+* Qualitative graphing: familialize yourself with the "meaning" of different shapes / curves in x vs t (p vs t) and v vs t graphs
+  * What is the x, v in each type of graph - fixed / constant / increasing / decreasing?
+  * What is the acceleration - positive or negative? (since we are only dealing with "uniform" or fixed acceleration
